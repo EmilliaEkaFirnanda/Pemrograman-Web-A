@@ -12,7 +12,12 @@
   <tr>
     <td>17 September 2020</td>
     <td>Tugas 1</td>
-      <td>Git push index.html berisi kode "HELLO WORLD" pada repository</td>
+    <td>Git push index.html berisi kode "HELLO WORLD" pada repository</td>
+  </tr>
+  <tr>
+    <td>28 September 2020</td>
+    <td>Tugas 2</td>
+    <td>Membuat HTML Web Sederhana Biodata</td>
   </tr>
 </table>
 

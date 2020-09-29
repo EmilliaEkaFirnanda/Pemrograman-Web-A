@@ -1,5 +1,5 @@
 <h1>Pemrograman-Web-A</h1>
-<p>Pemrograman Web A - Emillia Eka Firnanda [18081010026]</p>
+<h2><br>Pemrograman Web A - Emillia Eka Firnanda [18081010026]</h2>
 
 <h3>History Update</h3>
 
@@ -17,7 +17,7 @@
   <tr>
     <td>28 September 2020</td>
     <td>Tugas 2</td>
-    <td>Membuat HTML Web Sederhana Biodata</td>
+    <td>Membuat HTML Web Sederhana Page Profile</td>
   </tr>
 </table>
 

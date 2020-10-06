@@ -19,5 +19,10 @@
     <td>Tugas 2</td>
     <td>Membuat HTML Web Sederhana Page Profile</td>
   </tr>
+  <tr>
+    <td>06 Oktober 2020</td>
+    <td>Tugas 3</td>
+    <td>Membuat Layout Desain Web CV</td>
+  </tr>
 </table>
 

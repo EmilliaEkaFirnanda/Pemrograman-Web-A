@@ -1,0 +1,179 @@
+/* my syntax */
+
+
+body{
+	background-image: url(image/bgweb.png);
+	font-family: arial,lato; 
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+}
+
+.header{
+	height: 460px;
+	background-image: url(image/bgheader.jpg);
+}
+
+.header .image{
+	width : 300px;
+	height: 200px;
+	margin-top: -60px;
+	margin-left: 20px;
+}
+
+.header .main{
+	width : 600px;
+	margin-left: 320px;
+	margin-top: -70px;
+}
+
+.main h1{
+	font-size: 30pt;
+}
+
+.main h3{
+	font-size: 22pt;
+	margin-top: -20px;
+}
+
+.main table{
+	font-size: 18pt;
+}
+
+.main td{
+	padding-right: 20px;
+}
+
+.hero .sidebar{
+	box-sizing: border-box;
+	width: 360px;
+	height: 900px;
+	background-color: #e0e0d8;
+	margin-top: -20px;
+}
+
+.hero .content {
+	box-sizing: border-box;
+	width: 580px;
+	height: 900px;
+	margin-top: -975px;
+	margin-left: 380px;
+	background-color: #fcf9f0
+}
+
+.hero table{
+	border-top: 4px solid black;
+	padding-top: 10px;
+	width: 360px;
+}
+
+.content table{
+	width: 580px;
+}
+
+.content td{
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.content h2{
+	background-color: #c7b299;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.content p{
+	padding-top: 5px;
+}
+
+.content table{
+	margin-top: -20px;
+}
+
+.content .mainexp1 {
+	font-size: 14pt;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+
+.content .mainorg {
+	font-size: 14pt;
+	padding-left: 36px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.hero img{
+	width: 40px;
+	height: 40px;
+}
+
+.hero td{
+	padding-left: 10px;
+	margin-right: -20px;
+	font-size: 18pt;
+}
+
+.sidebar h2{
+	margin-left: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.hero p{
+	margin-top:-3px;
+	font-size: 14pt;
+	margin-bottom: 3px;
+}
+
+.footer{
+	height: 160px;
+	background-color: #c7b299;
+	margin-top: -20px;
+}
+
+.footer img{
+	width: 80px;
+	height: 60px;
+}
+
+.footer h2{
+	margin: center;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.footer table{
+	margin-top: -10px;
+}
+
+.footer td{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.footer p{
+	font-size: 14pt;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: black;
+}
+.sidebar a:hover{
+	background-color: black;
+	text-decoration: underline;
+	padding: 5px;
+	color: white;
+}
+
+.sidebar a:active{
+	color: red;
+}

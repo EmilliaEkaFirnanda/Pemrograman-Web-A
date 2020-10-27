@@ -24,10 +24,15 @@
     <td>Tugas 3</td>
     <td>Membuat Layout Desain Web CV</td>
   </tr>
-   <tr>
+  <tr>
     <td>14 Oktober 2020</td>
     <td>Tugas 4</td>
     <td>Membuat PHP, HTML dan CSS pada CV</td>
+  </tr>
+  <tr>
+    <td>27 Oktober 2020</td>
+    <td>Tugas 5</td>
+    <td>Read Data CV SQL to PHP</td>
   </tr>
 </table>
 

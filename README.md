@@ -34,5 +34,10 @@
     <td>Tugas 5</td>
     <td>Read Data CV SQL to PHP</td>
   </tr>
+  <tr>
+    <td>05 November 2020</td>
+    <td>UTS</td>
+    <td>Program Berbasis Web Untuk Invetarisasi Stok di Barokah Minimarket</td>
+  </tr>
 </table>
 

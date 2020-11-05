@@ -1,0 +1,30 @@
+body{
+	background: grey;
+	font-family: arial,lato;
+}
+
+.main{
+	background-color: lightblue;
+	width: 860px;
+	margin: auto;
+	padding-right: 5px;
+	padding-left: 5px; 
+	border-radius: 20px;
+}
+
+.input{
+	background-color: lightgreen;
+	width: 840px;
+	margin: auto;
+	border-radius: 30px;
+}
+
+.update{
+	background-color: salmon;
+	width: 840px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	border-radius: 30px;
+}
+

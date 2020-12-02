@@ -39,5 +39,10 @@
     <td>UTS</td>
     <td>Program Berbasis Web Untuk Invetarisasi Stok di Barokah Minimarket</td>
   </tr>
+<tr>
+    <td>02 Desember 2020</td>
+    <td>Tugas 6</td>
+    <td>JQuery untuk Interactive Website dan Input/Delete Riwayat Pendidikan dengan Fungsi AJAX</td>
+  </tr>
 </table>
 

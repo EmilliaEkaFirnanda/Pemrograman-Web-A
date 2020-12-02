@@ -12,21 +12,27 @@ body{
 }
 
 .header{
-	height: 460px;
+	height: 400px;
+	margin-top: 40px;
 	background-image: url(image/bgheader.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	overflow: hidden;
 }
 
 .header .image{
 	width : 300px;
 	height: 200px;
 	margin-top: -60px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 .header .main{
 	width : 600px;
-	margin-left: 320px;
+	margin-left: 350px;
 	margin-top: -70px;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
 .main h1{
@@ -46,27 +52,37 @@ body{
 	padding-right: 20px;
 }
 
+.main img {
+}
+
 .hero .sidebar{
 	box-sizing: border-box;
-	width: 360px;
-	height: 900px;
+	/* width: 360px; */
+	height: 960px;
 	background-color: #e0e0d8;
-	margin-top: -20px;
+	margin-top: 20px;
 }
 
 .hero .content {
 	box-sizing: border-box;
-	width: 580px;
+	/* width: 580px; */
 	height: 900px;
-	margin-top: -975px;
-	margin-left: 380px;
+	margin-top: -50px;
+	/* margin-left: 380px; */
 	background-color: #fcf9f0
+}
+
+.hero h2{
+	padding: -10px;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .hero table{
 	border-top: 4px solid black;
-	padding-top: 10px;
-	width: 360px;
+	padding-top: 20px;
+	width: 460px;
+	margin-left: 330px;
 }
 
 .content table{
@@ -90,7 +106,8 @@ body{
 }
 
 .content table{
-	margin-top: -20px;
+	margin-top: -10px;
+	margin-left: 300px;
 }
 
 .content .mainexp1 {
@@ -117,6 +134,7 @@ body{
 	padding-left: 10px;
 	margin-right: -20px;
 	font-size: 18pt;
+	padding-top: 10px;
 }
 
 .sidebar h2{
@@ -132,24 +150,26 @@ body{
 }
 
 .footer{
-	height: 160px;
+	height: 180px;
 	background-color: #c7b299;
 	margin-top: -20px;
 }
 
 .footer img{
-	width: 80px;
-	height: 60px;
+	width: 70px;
+	height: 50px;
+	margin-top: 10px;
 }
 
 .footer h2{
 	margin: center;
+	margin-bottom: 10px;
 	text-align: center;
 	padding-top: 10px;
 }
 
 .footer table{
-	margin-top: -10px;
+	margin-top: 10px;
 }
 
 .footer td{
@@ -177,3 +197,55 @@ body{
 .sidebar a:active{
 	color: red;
 }
+
+nav {
+	width: 1110px;
+}
+
+.navbar-main ul {
+	margin-left: 550px;
+}
+
+
+.navbar-main {
+	z-index: 9999;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}	
+
+.navbar-main a {
+	font-size: 1.5em;
+}
+
+.kiriCon, .kananSos, .kiriCom, .kananSki {
+	opacity: 0;
+	transform: translate(-200px, 0) rotate(15deg);
+	transition: 2s;
+}
+
+.kananSos, .kananSki{
+	transform: translate(200px, 0) rotate(-15deg);
+}
+
+.kiriCon.conMuncul, .kananSos.sosMuncul, .kiriCom.comMuncul, .kananSki.skiMuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.history .content{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 2s;
+}
+
+.history .content.muncul{
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.modal-dialog input [type=text]{
+	width: 800px;
+}
+
